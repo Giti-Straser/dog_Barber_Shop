@@ -9,10 +9,8 @@ namespace DAL.Models
 {
     public partial class Dogs_burber_shopContext : DbContext
     {
-        private IConfiguration _configuration;
-        public Dogs_burber_shopContext(IConfiguration configuration)
+        public Dogs_burber_shopContext()
         {
-            _configuration = configuration;
         }
 
         public Dogs_burber_shopContext(DbContextOptions<Dogs_burber_shopContext> options)
@@ -25,7 +23,7 @@ namespace DAL.Models
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(_configuration.GetSection("ConnectionStrings")["DefultConnection"]);
+            optionsBuilder.UseSqlServer("data source=LAPTOP-D5NC5APO;Database=Dogs_burber_shop;trusted_connection=true");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
