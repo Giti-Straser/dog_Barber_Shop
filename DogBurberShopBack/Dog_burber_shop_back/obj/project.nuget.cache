@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "66/xSMKpKDewLsS20DyXf/FJOq0PwsKagUoLgQMGxaO2I+OkUbzKJQn2H2Nzrd92J/wSXJHjIfCR9H9tK8+KbA==",
+  "dgSpecHash": "z16J5iScRp6D91CfBoIOWb4/1J8YpRj3J3kIgymK/Ca1+SOws6/n0snaRsjv/eHZqfVjuvFEbkJvRpuKaxeWBA==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\Desktop\\נופשונית\\Dog Burber Shop\\DogBurberShopBack\\Dog_burber_shop_back\\DogBurberShopBack.csproj",
   "expectedPackageFiles": [
@@ -61,6 +61,9 @@
     "C:\\Users\\user\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\nlog\\5.1.4\\nlog.5.1.4.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\nlog.extensions.logging\\5.2.3\\nlog.extensions.logging.5.2.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\nlog.web.aspnetcore\\5.2.3\\nlog.web.aspnetcore.5.2.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",

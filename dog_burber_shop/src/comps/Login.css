@@ -6,10 +6,9 @@
     border-width: 5px;
     border-style: double;
 }
-.in2{
+.in5{
     position: relative;
     left: 180px;
-    margin-left: 168px;
 }
 .btnLogin{
     background-color:#896423 ;
@@ -21,7 +20,6 @@
     font-size: 20px;
     position: relative;
     top: 70px;
-    right: 89px;
 }
 .btnSignin{
     background-color:#896423 ;
@@ -33,5 +31,5 @@
     position: relative;
     font-size: 20px;
     top: 145px;
-    right: 270px;
+    right: 187px;
 }

@@ -1,7 +1,7 @@
 
 import React,{ useState } from "react";
 import './UpdateQueue.css'
-import db from '../connectToDB'
+import db from '../connectToServer'
 import { useNavigate } from 'react-router-dom';
 function UpdateQueue(){
     const queueId = db.c.queue.queueId;

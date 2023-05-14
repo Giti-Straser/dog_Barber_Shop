@@ -1,6 +1,6 @@
 
 import React , {useState} from "react";
-import db from '../connectToDB'
+import db from '../connectToServer'
 import { useNavigate } from 'react-router-dom';
 import './AddQueue.css';
 function AddQueue(){

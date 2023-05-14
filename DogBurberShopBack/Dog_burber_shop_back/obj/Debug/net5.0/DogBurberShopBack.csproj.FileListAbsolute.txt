@@ -136,3 +136,7 @@ C:\Users\user\Desktop\נופשונית\Dog Burber Shop\DogBurberShopBack\Dog_bur
 C:\Users\user\Desktop\נופשונית\Dog Burber Shop\DogBurberShopBack\Dog_burber_shop_back\obj\Debug\net5.0\DogBurberShopBack.genruntimeconfig.cache
 C:\Users\user\Desktop\נופשונית\Dog Burber Shop\DogBurberShopBack\Dog_burber_shop_back\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\user\Desktop\נופשונית\Dog Burber Shop\DogBurberShopBack\Dog_burber_shop_back\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\user\Desktop\נופשונית\Dog Burber Shop\DogBurberShopBack\Dog_burber_shop_back\bin\Debug\net5.0\nlog.config
+C:\Users\user\Desktop\נופשונית\Dog Burber Shop\DogBurberShopBack\Dog_burber_shop_back\bin\Debug\net5.0\NLog.dll
+C:\Users\user\Desktop\נופשונית\Dog Burber Shop\DogBurberShopBack\Dog_burber_shop_back\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+C:\Users\user\Desktop\נופשונית\Dog Burber Shop\DogBurberShopBack\Dog_burber_shop_back\bin\Debug\net5.0\NLog.Web.AspNetCore.dll

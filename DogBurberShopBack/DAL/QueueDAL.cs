@@ -14,7 +14,6 @@ namespace DAL
     public class QueueDAL:IQueueDAL
     {
         Dogs_burber_shopContext _dbContext;
-       // DbContext MyDbContext;
         public QueueDAL(Dogs_burber_shopContext dbContext)
         {
             _dbContext = dbContext;
@@ -26,18 +25,16 @@ namespace DAL
         public void UpdateQueue(Queue queue, int id)
         {
             var currentQ = _dbContext.Queues.SingleOrDefault(i => i.QueueId == id);
-            //currentQ.QueueId = queue.QueueId;
-            //currentQ.CustomerId = queue.CustomerId;
             currentQ.QueueTime = queue.QueueTime;
             _dbContext.Queues.Update(currentQ);
             _dbContext.SaveChanges();
         }
-        public List<TodayQueue> GetTodayQueue()
+        public List<TodayQueue> GetQueue()
         {
             List<TodayQueue> queues = new List<TodayQueue>();
             using (var command = _dbContext.Database.GetDbConnection().CreateCommand())
             {
-                command.CommandText = "GetTodayQueue";
+                command.CommandText = "GetQueue";
                 command.CommandType = CommandType.StoredProcedure;
 
                 _dbContext.Database.OpenConnection();

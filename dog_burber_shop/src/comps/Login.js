@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Login.css';
-import db from '../connectToDB'
+import db from '../connectToServer'
 import { useNavigate } from 'react-router-dom';
 
 
@@ -17,7 +17,6 @@ function Login() {
     db.getCustomerByUserNameAndPassword(userName, password).then(data => {
       if (data) {
         db.c.currentCustomer = data;
-        console.log(db.c.currentCustomer);
         navigate('/queue');
       }
     })
@@ -33,7 +32,7 @@ function Login() {
       <h3 className='line'>user name</h3>
       <input className='in' value={name} onChange={e => setName(e.target.value)} />
       <h3 className='line'>password</h3>
-      <input className='in in2' type={'password'} value={pass} onChange={e => setPass(e.target.value)} />
+      <input className='in in5' type={'password'} value={pass} onChange={e => setPass(e.target.value)} />
       <button className='btnLogin' onClick={() => login(name, pass)}>login</button>
       <button className='btnSignin' onClick={signin}>new user</button>
     </div>

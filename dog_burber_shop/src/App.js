@@ -1,7 +1,6 @@
-//import logo from './logo.svg';
+
 import './App.css';
 import Login from './comps/Login';
-import db from './connectToDB'
 import { Route, Routes, Switch } from 'react-router-dom'
 import Queue from './comps/Queue';
 import SignIn from './comps/SignIn';

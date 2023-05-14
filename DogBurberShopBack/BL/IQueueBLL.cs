@@ -11,9 +11,7 @@ namespace BLL
     public interface IQueueBLL
     {
         List<QueueDTO> GetAllQueues();
-        // QueueDTO GetQueueByPassword(string password);
-        // List<QueueDTO> GetTodayQueue();
-        List<TodayQueue> GetTodayQueue();
+        List<TodayQueue> GetQueue();
         void UpdateQueue(QueueDTO queue, int id);
         void AddQueue(QueueDTO q);
         void DeleteQueue(QueueDTO queue);

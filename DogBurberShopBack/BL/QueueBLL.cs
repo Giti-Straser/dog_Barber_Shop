@@ -32,10 +32,9 @@ namespace BLL
             List<QueueDTO> listQueues = iMapper.Map<List<Queue>, List<QueueDTO>>(queues);
             return listQueues;
         }
-        public List<TodayQueue> GetTodayQueue()
+        public List<TodayQueue> GetQueue()
         {
-            List<TodayQueue> queues = _contextQueueDl.GetTodayQueue();
-            //List<QueueDTO> listQueues = iMapper.Map<List<Queue>, List<QueueDTO>>(queues);
+            List<TodayQueue> queues = _contextQueueDl.GetQueue();
             return queues;
         }
         public void UpdateQueue(QueueDTO queue, int id)

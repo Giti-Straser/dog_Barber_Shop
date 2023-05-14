@@ -1,6 +1,6 @@
 import React,{ useState } from 'react';
 import './SignIn.css';
-import db from '../connectToDB'
+import db from '../connectToServer'
 import { useNavigate } from 'react-router-dom';
 
 function useSignIn() {
@@ -9,7 +9,6 @@ function useSignIn() {
   const [pass, setPass] = useState('');
   const navigate = useNavigate();
   const addCustomer = ()=>{
-    console.log(name + userName +pass)
     db.addCustomer(name,userName,pass)
     alert(`${name} you are added Successfully`)
     navigate('/')
