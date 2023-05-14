@@ -1,0 +1,18 @@
+.update{
+    background-color:#896423 ;
+    border-style: none;
+    border-radius: 3px;
+    width: 180px;
+    height: 30px;
+    color: #fdd678;
+    font-size: 20px;
+    position: relative;
+    top: 70px;
+    right: 177px;
+}
+.in3{
+    border: #896423;
+    border-width: 5px;
+    border-style: double;
+    margin-left: 177px;
+}

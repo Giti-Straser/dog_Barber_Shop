@@ -1,0 +1,21 @@
+.in{
+    border: #896423;
+    border-width: 5px;
+    border-style: double;
+}
+.in2{
+    position: relative;
+    left: 92px;
+}
+.btn{
+    background-color:#896423 ;
+    border-style: none;
+    border-radius: 3px;
+    width: 180px;
+    height: 30px;
+    color: #fdd678;
+    font-size: 20px;
+    position: relative;
+    top: 70px;
+    right: 87px;
+}

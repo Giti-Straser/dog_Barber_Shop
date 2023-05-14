@@ -1,0 +1,39 @@
+.queue{
+    width: 35%;
+    height: 72px;
+    background-color: #fdd678;
+    border-radius: 17px;
+    color: #896423;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 33%;
+    padding-right: 15px;
+}
+.btnProp{
+    background-color:transparent ;
+    border-color:#896423 ;
+    color:#896423 ;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.btnAdd{
+    background-color: #896423;
+    border-style: none;
+    border-radius: 3px;
+    width: 180px;
+    height: 30px;
+    color: #fdd678;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .input-container h3 {
+    margin-right: 10px;
+    margin-left: 15px;
+  }
